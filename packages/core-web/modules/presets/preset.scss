@@ -1,0 +1,58 @@
+.Preset {
+  background: white;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "title title"
+  "svg filter";
+  grid-gap: 10px 20px;
+  padding: 10px 20px 15px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.Preset > h2 {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+  grid-area: title;
+}
+
+.Preset-svg {
+  grid-area: svg;
+  position: relative;
+}
+
+.Preset-svg > svg {
+  height: 150px;
+  margin: auto;
+  max-width: 50vw;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.Preset-svg svg #bodypart_area {
+  transform: scale(1.4) translate(50px, 0)!important;
+  -webkit-transform: scale(1.4) translate(50px, 0)!important;
+  -moz-transform: scale(1.4) translate(50px, 0)!important;
+  -o-transform: scale(1.4) translate(50px, 0)!important;
+}
+
+.Preset-svg .LikeButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.Preset-svg .LikeButton > button {
+  width: 30px;
+  height: 30px;
+}
+
+.Preset .Preset-filter {
+  grid-area: filter;
+}

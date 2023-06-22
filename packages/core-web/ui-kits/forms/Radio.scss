@@ -1,0 +1,38 @@
+@import '@yesplz/core-web/assets/styles/variables.scss';
+
+.YesplzRadio {
+  font-size: 13px;
+  font-weight: bold;
+  color: $dark-grey;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  user-select: none;
+
+  > input[type="radio"] {
+    display: none;
+  }
+
+  &-mask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border: 2px solid $dark-grey;
+    margin-right: 12px;
+
+    &.is-checked:after {
+      content: '';
+      background: $dark-grey;
+      width: 6px;
+      height: 6px;
+    }
+  }
+
+  &.is-disabled {
+    color: $type-disabled;
+  }
+}

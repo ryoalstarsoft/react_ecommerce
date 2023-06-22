@@ -1,0 +1,106 @@
+.CategoryMenu {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.CategoryMenu-item {
+  padding: 30px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+}
+
+.CategoryMenu-dropdown {
+  padding: 30px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(98, 0, 238, 0.86);
+  z-index: 9999;
+}
+
+.CategoryMenu-dropdown .container-wide {
+  display: flex;
+}
+
+.CategoryMenu-dropdown .container-wide > .CategoryMenu-list {
+  flex-basis: 295px;
+  border-right: 2px solid white;
+}
+
+.CategoryMenu-list {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.CategoryMenu-list > h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.CategoryMenu-list > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.CategoryMenu-list > ul > li {
+  text-transform: none;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.CategoryMenu-list > ul > li:hover {
+  font-weight: bold;
+}
+
+.CategoryMenu-list > ul > li.is-active {
+  position: relative;
+}
+
+.CategoryMenu-list > ul > li.is-active:before {
+  content: '';
+  display: inline-block;
+  background: white;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  position: absolute;
+  top: 10px;
+  left: -16px;
+}
+
+.CategoryMenu-rightCol {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% - 295px);
+}
+
+.CategoryMenu-filterCategories {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% - 350px);
+  justify-content: space-between;
+}
+
+.CategoryMenu-filterCategories > * {
+  margin: 0 25px;
+}
+
+.CategoryMenu-categoryDivisor {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 25px;
+}
+
+.CategoryMenu-buttonWrapper {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.CategoryMenu-buttonWrapper > .Button {
+  width: 143px;
+  margin: 0px 7px;
+}

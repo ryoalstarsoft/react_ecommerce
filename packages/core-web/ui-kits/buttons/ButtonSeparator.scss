@@ -1,0 +1,47 @@
+.ButtonSeparator {
+  margin: 30px auto;
+  text-align: center;
+
+  .container-wide {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .Button.ButtonBordered {
+    font-weight: 300;
+    color: #464545;
+    border-color: #4A4A4A;
+    position: relative;
+
+    &:hover {
+      background: rgba(74, 74, 74, 0.1);
+    }
+
+    &::before,
+    &::after {
+      content: '';
+      width: 1000px;
+      height: 1px;
+      background: #C1C8C8;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    &::before {
+      right: calc(100% + 25px);
+    }
+
+    &::after {
+      left: calc(100% + 25px);
+    }
+  }
+  
+  .YesplzButton.ButtonBordered {
+    width: 100%;
+    background: transparent;
+    color: black;
+    border-color: black;
+  }
+}

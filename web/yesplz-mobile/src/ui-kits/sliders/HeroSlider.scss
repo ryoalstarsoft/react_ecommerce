@@ -1,0 +1,73 @@
+$slider-height: 72.66vh;
+
+.HeroSlider {
+  position: relative;
+
+  h4 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+  }
+
+  &-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    padding: 80px 30px;
+    width: 100%;
+    height: $slider-height;
+    max-height: 590px;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  &-nextButton {
+    width: 72px;
+    height: 72px;
+    background: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    outline: none;
+  }
+
+  .slick-dots {
+    width: auto;
+    justify-content: flex-start;
+    padding: 0px 5px;
+    position: absolute;
+    left: 22px;
+    bottom: 22px;
+
+    > li {
+      width: 8px;
+      height: 8px;
+      background: #FFFFFF;
+      margin: 6px;
+      border: none;
+      opacity: 0.4;
+      border-radius: 100%;
+
+      &.slick-active {
+        opacity: 1;
+      }
+    }
+  }
+}

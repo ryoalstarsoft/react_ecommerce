@@ -1,0 +1,29 @@
+.Feedbacks {
+  height: calc(100% - 165px);
+}
+
+.Feedbacks h2 {
+  font-size: 3em; /* 48px */
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.Feedbacks .FlatBanner {
+  height: auto;
+}
+.Feedbacks .FlatBanner a {
+  font-size: 3em; /* 48px */
+  line-height: 48px;
+  display: inline;
+}
+.Feedbacks .FlatBanner a + a {
+  margin-left: 35px;
+}
+.Feedbacks .FlatBanner a > img {
+  max-width: 48px;
+  vertical-align: top;
+}
+.Feedbacks .FlatBanner a.SocialLink {
+  font-size: 3em; /* 48px */
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@yesplz/core-models",
+  "version": "1.0.0",
+  "description": "core models for yesplz",
+  "main": "index.js",
+  "scripts": {},
+  "author": "yesplz",
+  "license": "ISC",
+  "dependencies": {
+    "hammerjs": "^2.0.8"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>../../setupTests.global.js",
+    "testMatch": [
+      "<rootDir>/**/__tests__/**/*.{js,jsx,mjs}",
+      "<rootDir>/**/?(*.)(spec|test).{js,jsx,mjs}"
+    ]
+  }
+}

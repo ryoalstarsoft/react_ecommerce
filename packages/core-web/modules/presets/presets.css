@@ -1,0 +1,8 @@
+.Presets {
+  width: 100%;
+  height: calc(100% - 40px);
+  padding-right: 17px;
+  box-sizing: content-box;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}

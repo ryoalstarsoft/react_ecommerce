@@ -1,0 +1,32 @@
+.LikeButton {
+  background: transparent;
+  position: relative;
+  background: white;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LikeButton > button {
+  display: inline-block;
+  background: transparent;
+  padding: 0;
+  margin: auto;
+  outline: none;
+  vertical-align: top;
+ 
+  border: none;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.LikeButton > button > img {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  vertical-align: top;
+}

@@ -1,0 +1,64 @@
+.Home {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.HeroSlider-item {
+  position: relative;
+}
+
+.HeroSlider-button {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 72px;
+  height: 72px;
+}
+
+.Recommended-products .ProductGrid {
+  width: calc(50% - 10px);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  order: 1;
+}
+
+.Recommended-products .ProductGrid-thumbnail {
+  margin: auto;
+}
+
+.Recommended-products .ProductGrid-detail {
+  font-size: 12px;
+}
+
+.Recommended-products .ProductGrid-detail h5,
+.Recommended-products .ProductGrid-price,
+.Recommended-products .ProductGrid-originalPrice {
+  font-size: inherit;
+}
+
+/* bigger grid */
+.Recommended-products .ProductGrid:nth-child(1),
+.Recommended-products .ProductGrid:nth-child(4),
+.Recommended-products .ProductGrid:nth-child(7) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Recommended-products .ProductGrid:nth-child(1) .ProductGrid-thumbnail,
+.Recommended-products .ProductGrid:nth-child(4) .ProductGrid-thumbnail,
+.Recommended-products .ProductGrid:nth-child(7) .ProductGrid-thumbnail {
+  max-width: 175px;
+}
+
+.Recommended-products .ProductGrid:nth-child(1) .ProductGrid-detail,
+.Recommended-products .ProductGrid:nth-child(4) .ProductGrid-detail,
+.Recommended-products .ProductGrid:nth-child(7) .ProductGrid-detail {
+  font-size: 20px;
+  max-width: 175px;
+}

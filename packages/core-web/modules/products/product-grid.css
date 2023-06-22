@@ -1,0 +1,72 @@
+.ProductGrid {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.ProductGrid-thumbnail {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 468px;
+}
+
+.ProductGrid-detail {
+  width: 100%;
+  padding: 20px 0px 12px 0px;
+}
+
+.ProductGrid-detail h5 {
+  /* 16px */
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 16px;
+  color: #212121;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.ProductGrid-originalPrice,
+.ProductGrid-price {
+  /* 14px */
+  font-size: 0.875em;
+  font-weight: 600;
+  line-height: 14px;
+  display: inline;
+  vertical-align: top;
+}
+
+.ProductGrid-originalPrice {
+  margin-right: 16px;
+  text-decoration: line-through;
+}
+
+.ProductGrid-price {
+  color: #8c3bff;
+}
+
+.ProductGrid-price.sale {
+  vertical-align: top;
+}
+
+.ProductGrid .LikeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* misc */
+.ProductGrid-noImage {
+  width: 100%;
+  height: 145px;
+  border: 1px solid #000000;
+}
+
+@media (min-width: 1025px) {
+  .ProductGrid-detail {
+    padding: 30px 30px 15px;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "rewire",
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.SizesPage {
+  .PageName {
+    font-family: Muli;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 7.5px;
+    color: #1b1b1d;
+    margin-bottom: 32px;
+  }
+
+  .MenuNavigation {
+    margin-bottom: 38px;
+  }
+
+  .MenuButtons {
+    margin-bottom: 38px;
+  }
+
+  .BtnSize {
+    position: relative;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    max-width: calc(100% - 60px);
+    width: 100%;
+    height: 56px;
+    button {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      border: 2px solid black;
+      font-family: Muli;
+      font-size: 16px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 1.1px;
+    }
+  }
+}

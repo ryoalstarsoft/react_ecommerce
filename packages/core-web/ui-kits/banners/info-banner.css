@@ -1,0 +1,36 @@
+.InfoBanner {
+  font-size: 16px;
+  color: white;
+  background: #6200EE;
+  padding: 21px 25px 17px;
+  text-align: center;
+}
+
+.InfoBanner h1,
+.InfoBanner h2,
+.InfoBanner h3,
+.InfoBanner h4 {
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.InfoBanner h5,
+.InfoBanner p {
+  font-size: inherit;
+}
+
+.InfoBanner h5 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.InfoBanner p {
+  font-size: 1.125em; /* 18/16 */;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.InfoBanner strong.bigger {
+  font-size: 1.125em; /* 18/16 */
+}

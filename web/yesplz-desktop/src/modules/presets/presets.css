@@ -1,0 +1,116 @@
+.Presets {
+  width: 100%;
+  height: calc(100% - 165px);
+  padding-top: 10px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.PresetsInnerHead {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 1285px;
+  margin: 10px auto 5px;
+}
+
+.PresetsInnerWrapper {
+  height: 100%;
+}
+
+/* preset list */
+.PresetsInnerWrapper-presets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 -10px;
+  padding-bottom: 10px;
+  grid-area: presetList;
+}
+.PresetsInnerWrapper .Preset {
+  width: calc(50% - 16px);
+  margin: 0px 8px 20px;
+  padding: 20px 30px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.PresetsInnerWrapper .Preset-svg > svg {
+  width: 21.875vw;
+  height: auto;
+  transform: scale(1.15) translate(0, 10px);
+  -webkit-transform: scale(1.15) translate(0, 10px);
+  -moz-transform: scale(1.15) translate(0, 10px);
+  -o-transform: scale(1.15) translate(0, 10px);
+}
+.PresetsInnerWrapper .FabricFilters .FilterButton {
+  margin-bottom: 10px;
+}
+
+/* filter buttons */
+.Presets .FilterButton {
+  max-width: 118px;
+  cursor: pointer;
+  padding: 3px 8px 3px 3px;
+  margin-bottom: 9px;
+}
+.Presets .FilterButton  h5 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+}
+.Presets .FilterButton:not(.active)  h5 {
+  color: #707070;
+}
+.Presets .FilterButton .FilterButton-icon {
+  width: 2.986vw;
+  height: 2.986vw;
+  max-width: 33px;
+  max-height: 33px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+/* product list */
+.PresetsInnerWrapper-productList {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+.PresetsInnerWrapper-productList .ProductGrid {
+  width: calc(33.33333% - 10px);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  order: 1;
+}
+.PresetsInnerWrapper-productList .ProductGrid .ProductGrid-detail h5 {
+  width: 50%;
+}
+
+/* split view */
+.PresetsInnerWrapper.splitView {
+  display: grid;
+  grid-template-rows: 100% 100%;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  grid-template-areas: "presetList productList";
+  grid-gap: 0px 20px;
+  max-width: 1285px;
+  height: calc(100% - 56px); /* reduced by PresetsInnerHead */
+  margin: auto;
+}
+
+.PresetsInnerWrapper.splitView .PresetsInnerWrapper-presets {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.PresetsInnerWrapper.splitView .Preset {
+  width: 100%;
+  margin: 0px 5px 10px;
+  animation: none!important;
+  cursor: pointer;
+}

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="480px" height="405px" viewBox="0 0 480 405" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>mini_onboarding</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.2429907,17.2292838 C23.616825,17.2292838 111.701947,17.2305171 111.701947,17.2305171 L124.399925,-1.13686838e-13 L137.45553,17.2292838 L339.885436,17.2292838 C351.065331,17.2292838 360.128427,27.1683415 360.128427,39.4287905 L360.128427,88.8004933 C360.128427,101.060942 351.065331,111 339.885436,111 L20.2429907,111 C9.06309562,111 -8.31335001e-13,101.060942 -8.31335001e-13,88.8004933 L-8.31335001e-13,39.4287905 C-8.31335001e-13,27.1684963 13.4953271,17.2292838 20.2429907,17.2292838 Z" id="onb-path-1"></path>
+        <filter x="-3.1%" y="-6.3%" width="106.1%" height="119.8%" filterUnits="objectBoundingBox" id="onb-filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-3" cx="17.5" cy="17.5" r="17.5"></circle>
+        <filter x="-20.0%" y="-14.3%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="onb-filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M20.6854555,17.2292838 C24.1330341,17.2292838 251.679756,17.2305171 251.679756,17.2305171 L264.655283,-1.13686838e-13 L277.996253,17.2292838 L347.314544,17.2292838 C358.738806,17.2292838 368,27.1683415 368,39.4287905 L368,88.8004933 C368,101.060942 358.738806,111 347.314544,111 L20.6854555,111 C9.2611939,111 -8.52651283e-13,101.060942 -8.52651283e-13,88.8004933 L-8.52651283e-13,39.4287905 C-8.52651283e-13,27.1684963 13.7903037,17.2292838 20.6854555,17.2292838 Z" id="onb-path-5"></path>
+        <filter x="-3.2%" y="-12.2%" width="105.8%" height="118.9%" filterUnits="objectBoundingBox" id="onb-filter-6">
+            <feOffset dx="-1" dy="-3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-7" cx="17.5" cy="17.5" r="17.5"></circle>
+        <filter x="-20.0%" y="-14.3%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="onb-filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-9" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-11" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-13" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-14">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-15" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-16">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-17" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-18">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-19" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-20">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-21" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-22">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-23" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-24">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-25" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-26">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-27" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-28">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-29" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-30">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="onb-path-31" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-22.6%" y="-16.1%" width="145.2%" height="145.2%" filterUnits="objectBoundingBox" id="onb-filter-32">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M20.2429907,22.0403297 C23.616825,22.0403297 145.440265,22.0415495 145.440265,22.0415495 L158.128427,0 L171.193847,22.0403297 L339.885436,22.0403297 C351.065331,22.0403297 360.128427,31.8703854 360.128427,43.9963736 L360.128427,92.8266154 C360.128427,104.952604 351.065331,114.782659 339.885436,114.782659 L20.2429907,114.782659 C9.06309562,114.782659 -8.31335001e-13,104.952604 -8.31335001e-13,92.8266154 L-8.31335001e-13,43.9963736 C-8.31335001e-13,31.8705385 13.4953271,22.0403297 20.2429907,22.0403297 Z" id="onb-path-33"></path>
+        <filter x="-3.1%" y="-6.1%" width="106.1%" height="119.2%" filterUnits="objectBoundingBox" id="onb-filter-34">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M20.2919822,1.13686838e-13 C22.5466486,1.13686838e-13 129.351994,1.5476509e-13 340.708018,2.36921593e-13 C351.91497,2.33840725e-13 361,11.7652445 361,26.2784091 L361,84.7215909 C361,99.2347555 351.91497,111 340.708018,111 L20.2919822,111 C9.08502989,111 -8.52651283e-13,99.2347555 -8.52651283e-13,84.7215909 L-8.52651283e-13,26.2784091 C-8.52651283e-13,11.7654277 13.5279881,1.13686838e-13 20.2919822,1.13686838e-13 Z" id="onb-path-35"></path>
+        <filter x="-3.2%" y="-12.2%" width="105.8%" height="118.9%" filterUnits="objectBoundingBox" id="onb-filter-36">
+            <feOffset dx="-1" dy="-3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mini_onboarding_4-copy" transform="translate(-167.000000, -141.000000)">
+            <g id="mini_onboarding" transform="translate(210.000000, 146.000000)">
+                <g id="mini_onboarding_1" transform="translate(2.000000, 63.000000)">
+                    <g id="popup" transform="translate(5.000000, 43.000000)">
+                        <g id="popup-2" fill-rule="nonzero" transform="translate(180.064213, 55.500000) scale(1, -1) rotate(180.000000) translate(-180.064213, -55.500000) ">
+                            <use fill="black" fill-opacity="1" filter="url(#onb-filter-1)" xlink:href="#onb-path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#onb-path-1"></use>
+                        </g>
+                        <text id="Let’s-change-the-sho" font-family="Muli-Regular, Muli" font-size="18" font-weight="normal" line-spacing="25" letter-spacing="1.285714" fill="#4A4A4A" transform="translate(20, 0)">
+                            <tspan x="34" y="67">Go ahead, tap the shoulder.</tspan>
+                        </text>
+                    </g>
+                    <g id="tap_button" transform="translate(223.000000, 0.000000)" fill-rule="nonzero">
+                        <g id="Group">
+                            <g id="Ellipse_17-2">
+                                <use fill="black" fill-opacity="1" filter="url(#onb-filter-4)" xlink:href="#onb-path-3"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#onb-path-3"></use>
+                                <g id="tap_button_pulse_1" fill="rgba(99, 0, 238, 1)" fill-rule="nonzero">
+                                    <circle id="onb-path-3" cx="17.5" cy="17.5" r="17.5"></circle>
+                                </g>
+                                <g id="tap_button_pulse_2" fill="rgba(99, 0, 238, 1)" fill-rule="nonzero">
+                                    <circle id="onb-path-3" cx="17.5" cy="17.5" r="17.5"></circle>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="tap" transform="translate(8.965185, 5.942222)" fill="#686868">
+                            <g id="Group_48" transform="translate(1.027963, 5.199444)">
+                                <g id="Group_47">
+                                    <path d="M13.8094444,7.32796296 L8.41037037,5.57407407 L8.41037037,2.02222222 C8.41037037,0.905379728 7.50499064,0 6.38814815,0 C5.27130565,0 4.36592593,0.905379728 4.36592593,2.02222222 L4.36592593,7.99425926 L2.92055556,7.30981481 C2.12891838,6.93505259 1.18653138,7.1058755 0.576802937,7.73465795 C-0.0329255039,8.36344041 -0.174677913,9.31063626 0.224259259,10.0903704 L1.71888889,13.0109259 C3.11405643,15.7389439 6.19675526,17.1556928 9.17556463,16.4378703 C12.154374,15.7200478 14.2533682,13.0546336 14.2527778,9.99055556 L14.2527778,7.93722222 C14.2531689,7.65935124 14.073961,7.41307133 13.8094444,7.32796296 Z" id="onb-path_41"></path>
+                                </g>
+                            </g>
+                            <g id="Group_50" transform="translate(0.281296, 0.000000)">
+                                <g id="Group_49">
+                                    <path d="M7.13481481,-3.38813179e-21 C4.72432645,-0.00572891822 2.55857758,1.47177887 1.68457008,3.71824228 C0.810562591,5.9647057 1.40832965,8.51738507 3.18888889,10.1422222 C3.4511325,10.3525083 3.83145193,10.3236977 4.05902476,10.0763062 C4.28659758,9.8289147 4.28362433,9.44751716 4.05222222,9.2037037 C2.66613263,7.93282571 2.20227688,5.94144224 2.88411218,4.18887959 C3.56594748,2.43631693 5.25364141,1.28199486 7.13416667,1.28199486 C9.01469192,1.28199486 10.7023859,2.43631693 11.3842212,4.18887959 C12.0660565,5.94144224 11.6022007,7.93282571 10.2161111,9.2037037 C10.0477662,9.35815491 9.97460786,9.59068464 10.0241941,9.81370119 C10.0737803,10.0367177 10.2385778,10.2163396 10.4565089,10.2849049 C10.6744401,10.3534702 10.9123959,10.3005623 11.0807407,10.1461111 C12.8642718,8.52180352 13.4639954,5.96722562 12.5896122,3.7189347 C11.7152289,1.47064379 9.54713772,-0.00750272505 7.13481481,-3.38813179e-21 Z" id="onb-path_42"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="mini_onboarding_2" transform="translate(2.000000, 210.000000)">
+                    <g id="popup">
+                        <g id="popup-2" fill-rule="nonzero" transform="translate(200.500000, 55.500000) rotate(180.000000) translate(-180.500000, -55.500000) ">
+                            <use fill="black" fill-opacity="1" filter="url(#onb-filter-6)" xlink:href="#onb-path-5"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#onb-path-5"></use>
+                        </g>
+                        <text id="Alternatively,-you-c" font-family="Muli-Regular, Muli" font-size="18" font-weight="normal" line-spacing="25" letter-spacing="1.285714" fill="#4A4A4A">
+                            <tspan x="105" y="52.4">Or tap the thumbnail.</tspan>
+                        </text>
+                    </g>
+                    <g id="tap_button" transform="translate(107.000000, 130.000000)" fill-rule="nonzero">
+                        <g id="Group">
+                            <g id="Ellipse_17-2">
+                                <use fill="black" fill-opacity="1" filter="url(#onb-filter-8)" xlink:href="#onb-path-7"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#onb-path-7"></use>
+                                <g id="tap_button_pulse_1" fill="rgba(99, 0, 238, 1)" fill-rule="nonzero">
+                                    <circle id="onb-path-3" cx="17.5" cy="17.5" r="17.5"></circle>
+                                </g>
+                                <g id="tap_button_pulse_2" fill="rgba(99, 0, 238, 1)" fill-rule="nonzero">
+                                    <circle id="onb-path-3" cx="17.5" cy="17.5" r="17.5"></circle>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="tap" transform="translate(8.965185, 5.942222)" fill="#686868">
+                            <g id="Group_48" transform="translate(1.027963, 5.199444)">
+                                <g id="Group_47">
+                                    <path d="M13.8094444,7.32796296 L8.41037037,5.57407407 L8.41037037,2.02222222 C8.41037037,0.905379728 7.50499064,0 6.38814815,0 C5.27130565,0 4.36592593,0.905379728 4.36592593,2.02222222 L4.36592593,7.99425926 L2.92055556,7.30981481 C2.12891838,6.93505259 1.18653138,7.1058755 0.576802937,7.73465795 C-0.0329255039,8.36344041 -0.174677913,9.31063626 0.224259259,10.0903704 L1.71888889,13.0109259 C3.11405643,15.7389439 6.19675526,17.1556928 9.17556463,16.4378703 C12.154374,15.7200478 14.2533682,13.0546336 14.2527778,9.99055556 L14.2527778,7.93722222 C14.2531689,7.65935124 14.073961,7.41307133 13.8094444,7.32796296 Z" id="onb-path_41"></path>
+                                </g>
+                            </g>
+                            <g id="Group_50" transform="translate(0.281296, 0.000000)">
+                                <g id="Group_49">
+                                    <path d="M7.13481481,-3.38813179e-21 C4.72432645,-0.00572891822 2.55857758,1.47177887 1.68457008,3.71824228 C0.810562591,5.9647057 1.40832965,8.51738507 3.18888889,10.1422222 C3.4511325,10.3525083 3.83145193,10.3236977 4.05902476,10.0763062 C4.28659758,9.8289147 4.28362433,9.44751716 4.05222222,9.2037037 C2.66613263,7.93282571 2.20227688,5.94144224 2.88411218,4.18887959 C3.56594748,2.43631693 5.25364141,1.28199486 7.13416667,1.28199486 C9.01469192,1.28199486 10.7023859,2.43631693 11.3842212,4.18887959 C12.0660565,5.94144224 11.6022007,7.93282571 10.2161111,9.2037037 C10.0477662,9.35815491 9.97460786,9.59068464 10.0241941,9.81370119 C10.0737803,10.0367177 10.2385778,10.2163396 10.4565089,10.2849049 C10.6744401,10.3534702 10.9123959,10.3005623 11.0807407,10.1461111 C12.8642718,8.52180352 13.4639954,5.96722562 12.5896122,3.7189347 C11.7152289,1.47064379 9.54713772,-0.00750272505 7.13481481,-3.38813179e-21 Z" id="onb-path_42"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="mini_onboarding_3" transform="translate(20.000000, 109.000000)">
+                    <g id="popup-2" fill-rule="nonzero" transform="translate(180.500000, 55.500000) rotate(180.000000) translate(-180.500000, -55.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#onb-filter-36)" xlink:href="#onb-path-35"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#onb-path-35"></use>
+                    </g>
+                    <text id="That’s-it!" font-family="Muli-Regular, Muli" font-size="18" font-weight="bold" line-spacing="20" letter-spacing="1.285714" fill="#4A4A4A">
+                        <tspan x="140" y="40.140625">That’s it! </tspan>
+                    </text>
+                    <text id="Let’s-go-find-your-f" font-family="Muli-Regular, Muli" font-size="18" font-weight="normal" line-spacing="20" letter-spacing="1.285714" fill="#4A4A4A">
+                        <tspan x="40" y="81">Let’s go find your favorite tops.</tspan>
+                    </text>
+                </g>
+                <rect id="mini_onboarding_touch"  x="0" y="0" width="420" height="440" fill-opacity="0" 
+                    fill="#800000" 
+                    stroke-opacity="0" />
+            </g>
+        </g>
+    </g>
+</svg>

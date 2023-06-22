@@ -1,0 +1,21 @@
+.Empty {
+  text-align: center;
+  p {
+    width: 159px;
+    height: 40px;
+    opacity: 0.5;
+    font-family: Muli;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: 3px;
+    text-align: center;
+    color: var(--dark-grey);
+    margin: auto;
+  }
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,63 @@
+.SingleSelect {
+  cursor: pointer;
+  margin-bottom: 37px;
+  &:last-child {
+    margin-bottom: 60px;
+  }
+  .title {
+    font-family: Muli;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.4px;
+    color:#1b1b1d;
+  }
+
+  .select {
+    border-bottom: 1px solid black;
+    span {
+      font-family: Muli;
+      font-size: 13px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 3px;
+      color: #1b1b1d;
+    }
+    position: relative;
+
+    &--selected::before {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      right: 0;
+      bottom: 30%;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-bottom: 8px solid #1b1b1d;
+    }
+
+    &--not-selected::before {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      right: 0;
+      bottom: 30%;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 8px solid #1b1b1d;
+    }
+
+    &--is-view {
+      border: none;
+      &::before, &::after {
+        display: none;
+      }
+    }
+  }
+}

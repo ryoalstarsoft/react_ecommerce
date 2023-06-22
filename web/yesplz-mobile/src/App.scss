@@ -1,0 +1,112 @@
+@import 'assets/styles/variables.scss';
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: $dark-grey;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 10px;
+
+  &.SubHeader {
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 52px;
+    margin-bottom: 48px;
+  }
+}
+
+h1 {
+  font-size: 2.250em; /* 36px */
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+h2 {
+  font-size: 1.500em; /* 24px */
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+h3 {
+  font-size: 1.125em; /* 18px */
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5, p {
+  font-size: 0.875em; /* 14px */
+}
+
+.container,
+.container-wide {
+  max-width: calc(100% - 60px);
+  margin: auto;
+}
+
+// .container-wide {
+//   max-width: calc(100% - 24px);
+// }
+
+#MainScroll {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#svg-filters {
+  position: fixed;
+  z-index: -9999;
+}
+
+/* Misc */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.delay-1s {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animated.delay-2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+@media (prefers-reduced-motion) {
+  .animated {
+    -webkit-animation: unset !important;
+    animation: unset !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 21 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Yesplz_buttons-(1)" transform="translate(-141.000000, -45.000000)">
+            <g id="shoes" transform="translate(0.000000, 37.170200)">
+                <g id="glossy" transform="translate(129.000000, 1.000000)">
+                    <g id="Group" transform="translate(12.000000, 6.000000)">
+                        <path d="M9.392,7.097 C9.392,7.097 9.392,15.097 1.39,15.097 C9.392,15.097 9.392,23.098 9.392,23.098 L9.392,23.098 C9.392,23.098 9.392,15.097 17.392,15.097 C9.392,15.097 9.392,7.097 9.392,7.097" id="Path" stroke="#414042" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M14.953,0.678 C14.953,0.678 14.953,4.074 11.557,4.074 C14.953,4.074 14.953,7.471 14.953,7.471 L14.953,7.471 C14.953,7.471 14.953,4.074 18.351,4.074 C14.953,4.076 14.953,0.678 14.953,0.678" id="Path" fill="#414042" fill-rule="nonzero" opacity="0.3"></path>
+                        <circle id="Oval" fill="#414042" fill-rule="nonzero" opacity="0.3" cx="2.451" cy="23.973" r="1.6"></circle>
+                        <circle id="Oval" fill="#414042" fill-rule="nonzero" opacity="0.3" cx="19.538" cy="9.666" r="1.056"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

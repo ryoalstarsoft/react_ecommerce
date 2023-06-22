@@ -1,0 +1,21 @@
+{
+  "name": "@yesplz/core-web",
+  "version": "1.0.0",
+  "description": "core modules for yesplz web",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test BABEL_ENV=test react-app-rewired test"
+  },
+  "author": "yesplz",
+  "license": "ISC",
+  "dependencies": {
+    "react-mobile-picker": "^0.1.12"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>../../setupTests.global.js",
+    "testMatch": [
+      "<rootDir>/**/__tests__/**/*.{js,jsx,mjs}",
+      "<rootDir>/**/?(*.)(spec|test).{js,jsx,mjs}"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+@import '@yesplz/core-web/assets/styles/variables.scss';
+
+.AdvancedPreset {
+  .slick-slider {
+    max-width: 251px;
+
+    .slick-list {
+      overflow: visible;
+    }
+  }
+
+  .MinimalPreset,
+  .ProductGrid {
+    max-width: 231px;
+    margin-right: 20px;
+  }
+
+  .ProductGrid-thumbnail {
+    height: 341px;
+  }
+}

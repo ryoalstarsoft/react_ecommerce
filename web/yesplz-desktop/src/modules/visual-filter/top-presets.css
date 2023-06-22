@@ -1,0 +1,14 @@
+.TopPresets {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 10px;
+}
+
+.TopPresets .SimplePreset {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  justify-content: center;
+  align-items: center;
+}

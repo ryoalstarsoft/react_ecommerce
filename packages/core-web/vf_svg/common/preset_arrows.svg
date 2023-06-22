@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="84px" viewBox="0 0 86 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>arrow buttons</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+        <filter x="-53.1%" y="-53.1%" width="206.2%" height="206.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="24" cy="24" r="24"></circle>
+        <filter x="-53.1%" y="-53.1%" width="206.2%" height="206.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="3.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="VF-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-buttons" transform="translate(4.000000, 4.000000)">
+            <g id="left-arrow-button">
+                <g id="left-arrow" transform="translate(17.000000, 15.000000)">
+                    <g id="Oval" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M27.8474308,23.6677824 L20.7296443,16.1330544 C20.5620553,15.9556485 20.2932806,15.9556485 20.1256917,16.1330544 C19.9581028,16.3104603 19.9581028,16.5949791 20.1256917,16.7723849 L26.9399209,23.9857741 L20.1256917,31.1991632 C19.9581028,31.376569 19.9581028,31.6610879 20.1256917,31.8384937 C20.2079051,31.925523 20.3185771,31.9723849 20.426087,31.9723849 C20.5335968,31.9723849 20.6442688,31.9288703 20.7264822,31.8384937 L27.8442688,24.3037657 C28.0118577,24.1297071 28.0118577,23.841841 27.8474308,23.6677824 Z" id="Path" stroke="#000000" fill="#000000" transform="translate(23.985179, 23.986192) scale(-1, 1) translate(-23.985179, -23.986192) "></path>
+                </g>
+                <ellipse id="left-touch" stroke="#4A4A4A" fill="#D8D8D8" cx="40" cy="39.5" rx="40" ry="39.5"></ellipse>
+            </g>
+            <g id="right-arrow-button" transform="translate(40.000000, 39.500000) scale(1, 1) translate(-40.000000, -39.500000) ">
+                <g id="right-arrow" transform="translate(19.000000, 13.000000)">
+                    <g id="Oval" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                    </g>
+                    <path d="M27.8474308,23.6677824 L20.7296443,16.1330544 C20.5620553,15.9556485 20.2932806,15.9556485 20.1256917,16.1330544 C19.9581028,16.3104603 19.9581028,16.5949791 20.1256917,16.7723849 L26.9399209,23.9857741 L20.1256917,31.1991632 C19.9581028,31.376569 19.9581028,31.6610879 20.1256917,31.8384937 C20.2079051,31.925523 20.3185771,31.9723849 20.426087,31.9723849 C20.5335968,31.9723849 20.6442688,31.9288703 20.7264822,31.8384937 L27.8442688,24.3037657 C28.0118577,24.1297071 28.0118577,23.841841 27.8474308,23.6677824 Z" id="Path" stroke="#000000" fill="#000000" transform="translate(23.985179, 23.986192) scale(1, 1) translate(-23.985179, -23.986192) "></path>
+                </g>
+                <ellipse id="right-touch" stroke="#4A4A4A" fill="#D8D8D8" cx="40" cy="39.5" rx="40" ry="39.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

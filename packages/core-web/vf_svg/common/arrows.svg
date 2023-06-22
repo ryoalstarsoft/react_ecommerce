@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="72px" viewBox="0 0 69 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>arrows</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Shoes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Copy-21" transform="translate(-146.000000, -299.000000)">
+            <g id="arrows" transform="translate(146.000000, 299.000000)">
+                <g id="tn_arrow_back">
+                    <polyline id="arrow_left" stroke="#6E00FF" stroke-linecap="round" stroke-linejoin="round" points="42.882 19 27 35.495 42.882 51"></polyline>                    
+                    <rect id="touch_arrow" opacity="0" fill="#FFFFFF" x="0" y="0" width="69" height="72"></rect>
+                </g>
+                <g id="tn_arrow_forward">
+                    <polyline id="arroaw_right" stroke="#6E00FF" stroke-linecap="round" stroke-linejoin="round" transform="translate(34.941000, 35.000000) scale(-1, 1) translate(-34.941000, -35.000000) " points="42.882 19 27 35.495 42.882 51"></polyline>
+                    <rect id="touch_arrow" opacity="0" fill="#FFFFFF" x="0" y="0" width="69" height="72"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

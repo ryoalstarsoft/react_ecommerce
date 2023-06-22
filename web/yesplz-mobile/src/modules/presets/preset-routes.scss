@@ -1,0 +1,18 @@
+.PresetProductPage-mobile,
+.PresetProductListPage-mobile {
+  .ProductGrid {
+    &-detail {
+      padding: 15px 0px;
+      h5 {
+        font-size: inherit;
+        margin-bottom: 10px;
+      }
+    }
+    &-price {
+      font-size: 18px;
+    }
+  }
+  .ProductGrid-thumbnail {
+    height: 60vh;
+  }
+}

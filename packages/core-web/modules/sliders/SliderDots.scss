@@ -1,0 +1,20 @@
+.SliderDots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-item {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #848086;
+    border-radius: 100%;
+    margin: 8px;
+    cursor: pointer;
+
+    &.is-active {
+      background: #AFAFAF;
+      border-color: #AFAFAF;
+    }
+  }
+}

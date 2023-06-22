@@ -1,0 +1,9 @@
+.ThumbnailPicker {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .ThumbnailPickerOption {
+    margin-right: 12px;
+  }
+}

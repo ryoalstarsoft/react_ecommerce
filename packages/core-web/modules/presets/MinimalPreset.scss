@@ -1,0 +1,52 @@
+@import '@yesplz/core-web/assets/styles/variables.scss';
+
+.MinimalPreset {
+  background: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.MinimalPreset > h3 {
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: $type-primary;
+  margin: 0;
+  padding: 20px 0px 12px 0px;
+}
+
+.MinimalPreset-svg {
+  width: 231px;
+  height: 341px;
+  position: relative;
+  overflow: hidden;
+}
+
+.MinimalPreset-svg > svg {
+  width: 231px;
+  height: 341px;
+  width: 100%;
+  margin: auto;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.MinimalPreset-svg svg #bodypart_area {
+  transform: scale(1.4) translate(50px, 0)!important;
+  -webkit-transform: scale(1.4) translate(50px, 0)!important;
+  -moz-transform: scale(1.4) translate(50px, 0)!important;
+  -o-transform: scale(1.4) translate(50px, 0)!important;
+}
+
+.MinimalPreset-svg .LikeButton {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}

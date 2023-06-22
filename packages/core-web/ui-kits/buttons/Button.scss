@@ -1,0 +1,46 @@
+.YesplzButton {
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-align: center;
+
+  display: block;
+  padding: 14px 20px;
+  margin: auto;
+  outline: none;
+  text-decoration: none;
+
+  &--primary {
+    color: #ffffff;
+    background: #8c3bff;
+    &:hover {
+      background: #A354FD;
+    }
+    &:active {
+      background: #8549E3;
+    }
+    &:disabled {
+      background: rgba(#8c3bff, 0.3);
+    }
+  }
+
+  &--secondary {
+    color: #1b1b1d;
+    border: 3px solid #1b1b1d;
+    background: none;
+
+    &:active {
+      background-color: rgba(#1b1a21, 0.16);
+    }
+    &:disabled {
+      opacity: 0.3;
+    }
+  }
+
+  &--rounded {
+    border-radius: 2em;
+  }
+}

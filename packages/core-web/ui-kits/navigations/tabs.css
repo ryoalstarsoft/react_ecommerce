@@ -1,0 +1,57 @@
+/* default */
+.Tabs.default {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  background: white;
+}
+
+.Tabs.default a {
+  font-size: 1em;
+  font-weight: 200;
+  color: #9B9B9B;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  /* text-transform: lowercase; */
+  flex-basis: 100%;
+  padding: 10px 5px 7px;
+  border-bottom: 2px solid transparent;
+}
+
+.Tabs.default a.active {
+  font-weight: 700;
+  color: #4A4A4A;
+  border-bottom-color: #707070;
+}
+
+/* capsule */
+.Tabs.capsule {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  justify-content: stretch;
+  background: white;
+  border: 1px solid #DBDBDB;
+  border-radius: 2em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -o-border-radius: 2em;
+  overflow: hidden;
+}
+
+.Tabs.capsule a {
+  font-size: 1em;
+  font-weight: bold;
+  color: #989898;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  flex-basis: 100%;
+  padding: 8px;
+}
+
+.Tabs.capsule a.active {
+  color: white;
+  background: #3D3D3D;
+}

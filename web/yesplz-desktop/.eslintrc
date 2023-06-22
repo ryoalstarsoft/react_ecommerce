@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "rules": {
+    "react/no-did-update-set-state": 1
+  },
+  "env": {
+    "mocha": true
+  }
+}

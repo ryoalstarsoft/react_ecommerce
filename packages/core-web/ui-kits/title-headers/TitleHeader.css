@@ -1,0 +1,19 @@
+.TitleHeader {
+  border-bottom: 2px solid black;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+  margin-left: 30px
+}
+
+.TitleHeader .title {
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: Muli;
+  font-size: 35px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 6px;
+}

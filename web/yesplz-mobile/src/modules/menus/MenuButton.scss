@@ -1,0 +1,74 @@
+$transition-timing-fn: cubic-bezier(.55,.055,.675,.19);
+$transition-duration: 100ms;
+
+.MenuButton {
+  background: white;
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  position: relative;
+  z-index: 999999;
+
+  &-inner {
+    position: relative;
+    transition: transform $transition-duration $transition-timing-fn, background 0ms linear $transition-duration;
+    width: 72px;
+    height: 72px;
+    margin: -16px;
+    padding: 32px 10px;
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: #000000;
+      margin: auto;
+      position: relative;
+      transition: transform $transition-duration $transition-timing-fn, top $transition-duration $transition-timing-fn;
+    }
+
+    &:after {
+      top: 4px;
+    }
+  }
+
+  &--close {
+    position: fixed;
+    width: 72px;
+    height: 72px;
+    box-sizing: content-box;
+    top: 44px;
+    left: 0;
+
+    > .MenuButton-inner {
+      transform: rotate(45deg);
+      transition: transform $transition-duration $transition-timing-fn, background 0ms linear 0ms;
+      top: 2px;
+
+      &:before,
+      &:after {
+        width: 25px;
+        position: relative;
+        margin: auto;
+      }
+
+      &:before {
+        transition: transform $transition-duration $transition-timing-fn $transition-duration, top $transition-duration $transition-timing-fn;
+        transform: rotate(90deg);
+        top: 1px;
+      }
+
+      &:after {
+        top: -1px;
+      }
+    }
+  }
+}

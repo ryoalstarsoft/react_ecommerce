@@ -1,0 +1,41 @@
+.Tutorial {
+  background: #6200EE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+
+.Tutorial .Button:hover {
+  background: rgba(255, 255, 255, 0.7)!important;
+}
+
+/* navigations */
+.TutorialNavigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  height: 90px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.TutorialNavigation .Button {
+  font-size: 1.125em;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: auto;
+  padding: 10px 25px;
+  margin: auto 10px;
+  border-radius: 8px;
+}
+
+.TutorialNavigation .ButtonPrimary {
+  box-shadow: 0 2px 5px 0px #000000;
+}

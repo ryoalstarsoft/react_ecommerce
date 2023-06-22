@@ -1,0 +1,60 @@
+$smaller-image-breakpoint: 568px;
+
+.TutorialItem {
+  h2 {
+    font-family: Muli;
+    font-size: 2.95vh; // 24px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--dark-grey);
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: Muli;
+    font-size: 1.98vh; // 16px
+    line-height: 1.25;
+    letter-spacing: 0.8px;
+    color: var(--dark-grey);
+  }
+
+  &-content {
+    padding: 0px 11px;
+  }
+
+  &-imageWrapper {
+    text-align: center;
+  }
+
+  .SlideImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 52.8vh; // 429px
+
+    @media (max-height: $smaller-image-breakpoint) {
+      max-height: 40vh;
+    }
+
+    &.has-multiple-images {
+      width: 360px;
+      height: 429px;
+
+      img {
+        right: 0;
+        margin: auto;
+      }
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 52.8vh; // 429px
+
+      @media (max-height: $smaller-image-breakpoint) {
+        max-height: 40vh;
+      }
+    }
+  }
+}

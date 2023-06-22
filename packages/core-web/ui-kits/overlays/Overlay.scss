@@ -1,0 +1,39 @@
+.Overlay {
+  background: white;
+  position: fixed!important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  &-scroll {
+    
+  }
+
+  &-close > img {
+    vertical-align: top;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-content {
+    padding-top: 20px;
+  }
+}

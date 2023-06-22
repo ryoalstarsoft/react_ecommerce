@@ -1,0 +1,86 @@
+.Base {
+  display: block;
+  margin: auto;
+  max-width: 414px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.Base-fixed-height {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Base-header {
+  display: flex;
+  align-items: flex-end;
+  /* height: 15.14vh; */
+  max-height: 123px;
+  background: white;
+  padding: 22px 4px;
+}
+
+.Base-header.is-sticky {
+  height: 15.14vh;
+  max-height: 123px;
+}
+
+.Base-header-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0!important;
+}
+
+.is-sticky > .Base-header-container {
+  background: white;
+  max-width: none;
+  padding: 22px 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  box-shadow: 0 0 30px 0px rgba(0,0,0,0.2);
+}
+
+.Base-header > * {
+  flex-shrink: 1;
+}
+
+.Base-header a {
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.Base-header a img {
+  vertical-align: top;
+}
+
+.Base-header .logo {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  color: #000000;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.Base-header .menu-icon {
+  /* width: 40px; */
+  /* height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.Base-header .menu-icon + .menu-icon {
+  margin-left: 20px;
+}

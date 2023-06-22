@@ -1,0 +1,46 @@
+
+.SidebarMenuGroup {
+  display: none;
+  flex-direction: column;
+  padding-top: 170px;
+  padding-left: 94px;
+  padding-bottom: 100px;
+
+  > a {
+    color: inherit;
+    font-weight: bold;
+    line-height: inherit;
+    letter-spacing: 5.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.3;
+    position: relative;
+
+    &.is-primary {
+      padding-bottom: 50px;
+    }
+
+    &.is-active {
+      opacity: 1;
+
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 26px;
+        height: 2px;
+        background: white;
+        margin: auto;
+        position: absolute;
+        top: 27px;
+        right: calc(100% + 45px);
+      }
+    }
+  }
+
+  &.is-active {
+    display: flex;
+  }
+}

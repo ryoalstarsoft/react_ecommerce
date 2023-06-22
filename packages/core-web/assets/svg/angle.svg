@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_point_closed</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="YesPlz-Mobile-Frontend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.72">
+        <g id="YesPlz_Mobile_3-Copy" transform="translate(-286.000000, -634.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Visual-Filter-Search-Page" transform="translate(8.000000, 0.000000)">
+                <g id="color_palette_closed" transform="translate(239.563338, 624.256334)">
+                    <g id="color_palette_arrow_closed" transform="translate(45.192996, 13.895678) scale(-1, 1) rotate(-90.000000) translate(-45.192996, -13.895678) translate(41.692996, 7.895678)">
+                        <path d="M6.70775088,6.5549957 L1.45946082,11.6837668 C1.12559342,12.010031 0.584287457,12.010031 0.25042008,11.6837668 C-0.0834472986,11.3575025 -0.0834473126,10.8285236 0.250420049,10.5022594 L4.89418972,5.96424202 L0.250420049,1.42622462 C0.0344456959,1.21516866 -0.0499018976,0.907547878 0.0291501925,0.619240058 C0.108202282,0.330932239 0.33864416,0.105738198 0.633670598,0.0284863568 C0.928697036,-0.0487654847 1.2434865,0.0336612664 1.45946082,0.244717249 L6.70775088,5.37348833 C6.86815053,5.53012919 6.95827124,5.74264342 6.95827124,5.96424202 C6.95827124,6.18584062 6.86815053,6.39835485 6.70775088,6.5549957 Z" id="arrow_point_closed"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

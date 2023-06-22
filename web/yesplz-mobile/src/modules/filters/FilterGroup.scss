@@ -1,0 +1,11 @@
+@import '@yesplz/core-web/assets/styles/variables.scss';
+
+.FilterGroup {
+  label {
+    width: 100%;
+  }
+
+  &-fieldLinkWrap {
+    color: $type-disabled;
+  }
+}

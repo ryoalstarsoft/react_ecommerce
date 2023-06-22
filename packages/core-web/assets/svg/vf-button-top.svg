@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="27px" viewBox="0 0 30 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Style-guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02" transform="translate(-294.000000, -459.000000)" fill="#FFFFFF">
+            <g id="Floating-btns" transform="translate(272.000000, 436.000000)">
+                <g id="Default">
+                    <g id="icons/top" transform="translate(13.000000, 12.000000)">
+                        <path d="M29.4225,11 L28.5,11 C28.5,11 27,14 24,14 C21,14 19.5,11 19.5,11 L18.5775,11 C17.2185,11 15.8835,11.369 14.718,12.0695 L9,15.5 L10.5,23 L13.5,23 L13.5,38 L34.5,38 L34.5,23 L37.5,23 L39,15.5 L33.282,12.0695 C32.115,11.369 30.7815,11 29.4225,11 L29.4225,11 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Yesplz_buttons-(1)" transform="translate(-17.000000, -164.000000)">
+            <g id="shoes" transform="translate(0.000000, 37.170200)">
+                <g id="lace-up" transform="translate(6.000000, 116.000000)">
+                    <g id="Group" transform="translate(11.000000, 11.000000)">
+                        <circle id="Oval" fill="#414042" fill-rule="nonzero" cx="2.625" cy="2.4" r="1.869"></circle>
+                        <circle id="Oval" fill="#414042" fill-rule="nonzero" cx="17.574" cy="2.4" r="1.869"></circle>
+                        <circle id="Oval" fill="#414042" fill-rule="nonzero" cx="2.625" cy="9.875" r="1.869"></circle>
+                        <circle id="Oval" fill="#414042" fill-rule="nonzero" cx="17.574" cy="9.875" r="1.869"></circle>
+                        <circle id="Oval" fill="#414042" fill-rule="nonzero" cx="2.625" cy="17.349" r="1.869"></circle>
+                        <circle id="Oval" fill="#414042" fill-rule="nonzero" cx="17.574" cy="17.349" r="1.869"></circle>
+                        <path d="M2.432,2.4 C2.432,2.4 6.995,3.218 10.791,5.273 C14.586,7.327 17.768,10.701 17.768,10.701" id="Path" stroke="#414042" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M2.432,9.875 C2.432,9.875 6.995,10.693 10.791,12.748 C14.586,14.803 17.768,18.177 17.768,18.177" id="Path" stroke="#414042" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M17.768,2.4 C17.768,2.4 13.206,3.218 9.41,5.273 C5.614,7.327 2.432,10.701 2.432,10.701" id="Path" stroke="#414042" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M17.768,9.875 C17.768,9.875 13.206,10.693 9.41,12.748 C5.614,14.803 2.432,18.177 2.432,18.177" id="Path" stroke="#414042" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M2.625,17.349 C2.625,17.349 6.398,16.445 10.099,16.445 C13.8,16.445 17.576,17.349 17.576,17.349" id="Path" stroke="#414042" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  yesplz-frontend:
+    build:
+      args:
+        mobile_env: ./docker/.env.beta
+        desktop_env: ./docker/.env.desktop.beta

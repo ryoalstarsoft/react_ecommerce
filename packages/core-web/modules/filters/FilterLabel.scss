@@ -1,0 +1,10 @@
+@import '../../assets/styles/variables.scss';
+.FilterLabel {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: $type-primary;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}

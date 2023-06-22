@@ -1,0 +1,17 @@
+.TopMenu {
+  background: #6200EE;
+  padding: 30px 28px;
+}
+
+.TopMenu > .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.TopMenu > .container > * {
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+}

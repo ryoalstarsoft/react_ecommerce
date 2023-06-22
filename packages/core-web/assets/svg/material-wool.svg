@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Yesplz_buttons-(1)" transform="translate(-880.000000, -36.000000)" stroke="#414042">
+            <g id="pants/jeans" transform="translate(798.000000, 23.170200)">
+                <g id="wool" transform="translate(73.000000, 6.000000)">
+                    <g id="Group" transform="translate(9.000000, 8.000000)">
+                        <g>
+                            <circle id="Oval" cx="11.199" cy="10.513" r="10.479"></circle>
+                            <path d="M4.344,2.59 C4.344,2.59 8.583,8.141 21.406,8.141" id="Path"></path>
+                            <path d="M1.318,7.02 C1.318,7.02 4.466,14.005 21.081,14.005" id="Path"></path>
+                            <path d="M6.541,11.36 C6.541,11.36 5.377,14.41 6.541,19.827" id="Path"></path>
+                            <path d="M12.865,13.321 C12.865,13.321 12.507,16.003 13.566,20.723" id="Path"></path>
+                        </g>
+                        <path d="M19.651,16.709 C19.651,16.709 23.28,16.786 22.453,19.544 C21.081,24.113 13.186,23.462 12.427,24.94 C11.324,27.082 13.187,27.419 13.568,27.419" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

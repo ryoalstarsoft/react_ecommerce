@@ -1,0 +1,45 @@
+@import '@yesplz/core-web/assets/styles/variables.scss';
+
+.FilterGroupSlider {
+  position: relative;
+
+  &-nextButton.slick-next,
+  &-prevButton.slick-prev {
+    text-align: center;
+
+    background: white!important;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: auto;
+
+    border: 1px solid rgba($dark-grey, 0.2);
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transform: none;
+    z-index: 5;
+
+    &::before {
+      display: none;
+    }
+
+    &.slick-disabled {
+      opacity: 0.4;
+    }
+
+    & > img {
+      margin: auto;
+    }
+  }
+
+  &-prevButton {
+    left: 3px!important;
+  }
+
+  &-nextButton {
+    right: 3px!important;
+  }
+}

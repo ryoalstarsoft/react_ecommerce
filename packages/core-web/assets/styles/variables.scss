@@ -1,0 +1,18 @@
+// sections
+$header-height: 124px;
+$content-height: calc(100% -  #{$header-height});
+
+/*
+ * Colors
+ */
+$dark-grey: #1b1b1d;
+
+$type-primary: $dark-grey;
+$type-disabled: rgba($dark-grey, 0.5);
+
+$accent-primary: #582ADF;
+
+$background-primary: #FFFFFF;
+$background-secondary: #F9F9F9;
+
+$shadow-primary: 0 0 30px 0px rgba(0,0,0,0.2);

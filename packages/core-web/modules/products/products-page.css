@@ -1,0 +1,30 @@
+.ProductsPage {
+  height: calc(100% - 56px);
+}
+
+.ProductsPage-products {
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.ProductsPage-products .Product {
+  order: 0;
+  margin: -8px -5px 10px;
+}
+
+.ProductsPage-products .ProductGrid {
+  width: calc(33.33333% - 10px);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  order: 1;
+}
+
+/* from ScrollFetcher */
+.ProductsPage-products .DotLoader {
+  width: 100%;
+  flex-basis: 100%;
+  order: 2;
+}

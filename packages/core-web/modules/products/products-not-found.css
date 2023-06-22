@@ -1,0 +1,9 @@
+.ProductsNotFound {
+  background: rgba(155, 155, 155, 0.7);
+  padding: 70px 45px;
+}
+
+.ProductsNotFound h1 {
+  max-width: 220px;
+  color: white;
+}

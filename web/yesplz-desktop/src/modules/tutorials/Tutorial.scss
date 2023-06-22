@@ -1,0 +1,26 @@
+.Tutorial {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  z-index: 99999;
+
+  > .container {
+    max-width: 1270px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .slider-frame {
+    overflow: visible!important;
+  }
+  .slider-slide {
+    padding-top: 30px;
+  }
+}

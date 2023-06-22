@@ -1,0 +1,229 @@
+.Product {
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 0px 15px;
+}
+
+.Product > .container-wide {
+  /* display: grid; */
+  display: block;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "images detail"
+  "footer footer";
+  grid-gap: 20px 30px;
+  box-sizing: border-box;
+  position: relative;
+  /* width: calc(100% - 35px); */
+  width: calc(100% - 60px);
+}
+
+.LikeButton-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+.Product .LikeButton {
+  float: right;
+}
+
+.Product .LikeButton > button {
+  width: 30px;
+  height: 30px;
+}
+
+.Product-pricing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 4px 0px;
+}
+
+.Product-description {
+  margin: 20px 0;
+}
+
+.Product-original-price {
+  text-decoration: line-through;
+  margin-right: 10px;
+  color: #000000;
+}
+
+.Product-price {
+  color: #8c3bff;
+}
+
+.Product-images {
+  position: relative;
+  grid-area: images;
+  min-width: 125px;
+  min-height: 215px;
+  margin-bottom: 50px;
+}
+
+.Product-image {
+  /* height: 200px; */
+  /* background-size: cover; */
+  height: 50vh;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+
+.Product .Product-images > .slick-slider {
+  /* max-width: 128px; */
+  margin: auto;
+}
+
+.Product .Product-images > .slick-slider .slick-dots {
+  text-align: left;
+  bottom: -40px;
+}
+
+.Product .Product-images > .slick-slider .slick-dots > li {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0 10px 0 0;
+  vertical-align: top;
+}
+.Product .Product-images > .slick-slider .slick-dots > li > button {
+  width: auto;
+  height: auto;
+  padding: 0px;
+  vertical-align: top;
+}
+.Product .Product-images > .slick-slider .slick-dots > li > button::before {
+  content: '';
+  display: inline-block;
+  background: #3D3D3D;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #3D3D3D;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  box-sizing: border-box;
+  position: static;
+}
+.Product .Product-images > .slick-slider .slick-dots > li.slick-active > button::before {
+  background: #000000;
+  border-color: #000000;
+}
+
+.Product .Product-images > .slick-slider .slick-prev:before,
+.Product .Product-images > .slick-slider .slick-next:before {
+  content: '';
+  background: url('./angle.svg') center center no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 16px;
+  height: 10px;
+  opacity: 1;
+}
+
+.Product .Product-images > .slick-slider .slick-prev:before {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+.Product .Product-images > .slick-slider .slick-next:before {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.Product-images img {
+  width: 128px;
+}
+
+.Product-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* max-width: 160px; */
+  width: 100%;
+  grid-area: detail;
+}
+
+.Product-detail h3 {
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+.Product-detail h4 {
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.Product-detail > p {
+  max-height: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+}
+
+.Product-footer {
+  grid-area: footer;
+}
+
+.Product-placeholder {
+  grid-template-areas: "images detail";
+}
+
+.Product-sizes {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: -4px -10px;
+}
+
+.Product-sizes > li {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 4px 10px;
+  opacity: 0.2;
+}
+
+.Product-sizes > li.size-available {
+  opacity: 1;
+}
+
+.Sizes-message {
+  margin: 18px 0px;
+
+}
+
+.Sizes-message > a {
+  text-decoration: none;
+  color: #8c3bff;
+}
+
+.Product-footer {
+  margin: 30px 0;
+}
+
+.Product-out-of-stock {
+  font-size: 1.4em;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 0;
+}

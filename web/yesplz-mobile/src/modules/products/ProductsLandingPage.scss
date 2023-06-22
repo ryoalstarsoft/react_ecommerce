@@ -1,0 +1,29 @@
+@import '../../assets/styles/variables.scss';
+
+.ProductsLandingPage {
+  &-title {
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &::after {
+        content: '';
+        display: inline-block;
+        border-top: 4px solid $dark-grey;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        margin-left: 8px;
+      }
+    }
+
+    &.is-opened h2 {
+      color: $accent-primary;
+
+      &::after {
+        border-top: none;
+        border-bottom: 4px solid $accent-primary;
+      }
+    }
+  }
+}

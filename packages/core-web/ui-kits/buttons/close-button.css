@@ -1,0 +1,14 @@
+.CloseButton {
+  background: #9B9B9B;
+  padding: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.CloseButton:hover {
+  opacity: 0.8;
+}
+
+.CloseButton > img {
+  vertical-align: top;
+}

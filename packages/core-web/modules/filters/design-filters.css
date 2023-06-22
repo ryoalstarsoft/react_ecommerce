@@ -1,0 +1,16 @@
+.DesignFilters {
+  background: #EAEAEA;
+  padding: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  max-width: 127px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DesignFilters label {
+  font-size: 14px;
+  color: #000000;
+}

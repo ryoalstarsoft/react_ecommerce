@@ -1,0 +1,74 @@
+.VisualFilter {
+  background: white;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+/* filter panel */
+.VisualFilter .FilterPanel {
+  position: static;
+  max-width: none;
+  width: 100%;
+  position: relative;
+}
+
+/* main svg */
+.VisualFilter .FilterPanel svg {
+  display: block;
+  max-width: 450px;
+  margin: 0 auto 10px;
+}
+
+/* filter like button */
+.VisualFilter .FilterPanel .LikeButton {
+  position: static;
+  display: block;
+  max-width: 500px;
+  margin: auto;
+}
+
+.VisualFilter .FilterPanel .LikeButton > button {
+  position: relative;
+  top: auto;
+  left: 50px;
+  bottom: -40px;
+  width: 40px;
+  height: 40px;
+}
+
+/* secondary filters */
+.VisualFilter .SecondaryFilters {
+  justify-content: center;
+  position: relative;
+  width: auto;
+  max-width: 450px;
+  margin: auto;
+  left: 0;
+  bottom: 0;
+}
+
+.VisualFilter .SecondaryFilters .YesplzButton {
+  font-size: 12px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.VisualFilter .SecondaryFilters .ColorPallete {
+  position: absolute;
+  top: auto;
+  bottom: 45px;
+  justify-content: flex-start;
+}
+
+.VisualFilter .SecondaryFilters .ColorPallete > .Button:last-child {
+  margin-left: 8px!important;
+  margin-right: 8px!important;
+}
+
+.VisualFilter .SecondaryFilters .DesignFilters {
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 45px;
+}

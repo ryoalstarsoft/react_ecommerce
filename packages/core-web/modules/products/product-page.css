@@ -1,0 +1,44 @@
+.ProductPage {
+  height: calc(100% - 56px);
+}
+
+.ProductPage-products {
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.ProductPage-products .Product {
+  order: 0;
+  width: calc(100%);
+  /* margin: -8px -5px 10px; */
+
+}
+
+.ProductPage-products .ProductGrid {
+  /* width: calc(33.33333% - 10px); */
+  width: calc(100% - 0px);
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+  margin-bottom: 10px;
+  order: 1;
+}
+
+/* from ScrollFetcher */
+.ProductPage-products .DotLoader {
+  width: 100%;
+  flex-basis: 100%;
+  order: 2;
+}
+
+
+.ProductPage .BackToLabel {
+  height: 80px;
+  text-align: center;
+  /* padding: 30px; */
+}
+
+.ProductPage .BackToLabel a {
+  color: black;
+}

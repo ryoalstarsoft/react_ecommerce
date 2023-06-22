@@ -1,0 +1,33 @@
+.ProductListVertical {
+  &--twoColumns {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    > .ProductGrid {
+      max-width: calc(50% - 10px);
+      flex-basis: calc(50% - 10px);
+
+      .ProductGrid-thumbnail {
+        height: 216px;
+      }
+    }
+  }
+
+  .GoBack-link {
+    text-align: center;
+    margin: 25px;
+    a {
+      text-decoration: underline;
+      font-family: Muli;
+      font-size: 14px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 1px;
+      color: black;
+    }
+  }
+}

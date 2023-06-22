@@ -1,0 +1,50 @@
+/* override mobile module settings */
+.Base {
+  background: white;
+}
+
+/* buttons */
+.FilterButton {
+  cursor: pointer;
+}
+
+/* product list */
+.ProductList-subtitle {
+  font-size: 24px;
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 36px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* info banner */
+.InfoBanner {
+  text-align: center;
+}
+
+.InfoBanner h1,
+.InfoBanner h2,
+.InfoBanner h3,
+.InfoBanner h4,
+.InfoBanner h5 {
+  margin-bottom: 5px;
+}
+
+.InfoBanner p {
+  font-size: 1.875em;
+  font-weight: 200;
+}
+
+/* Breadcrumbs */
+
+.BreadCrumbs > .container {
+  display: flex;
+  width: calc(100% - 30px);
+}
+
+/* ProductGrid */
+
+.ProductGrid-thumbnail {
+  height: 300px;
+}

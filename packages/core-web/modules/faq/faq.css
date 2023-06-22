@@ -1,0 +1,54 @@
+.Faq {
+  background: white;
+  height: calc(100% - 56px);
+}
+
+.Faq a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Faq a:hover {
+  text-decoration: underline;
+}
+
+.Faq a.SocialLink {
+  font-weight: 200;
+  text-decoration: none;
+  color: inherit;
+}
+
+.Faq a.SocialLink > img {
+  max-width: 28px;
+  width: 100%;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.Faq div.Faq-header {
+  border-bottom: 1px solid #1b1b1d;
+  color: black;
+  font-size: 45px;
+}
+
+.Faq .Faq-section {
+  border-bottom: none;
+}
+
+.Faq .HeadingWrapper {
+  padding: 0;
+  font-weight: bold;
+}
+
+.Faq .HeadingWrapper p {
+  color: #1b1b1d;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Faq .ExpansionPanelDetails p{
+  padding: 10px 0 0 0;
+}
+.Faq .TitleHeader {
+  /* margin-left: 0; */
+}

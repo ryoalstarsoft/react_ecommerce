@@ -1,0 +1,58 @@
+.TutorialItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  cursor: default;
+
+  img {
+    max-width: 100%;
+  }
+
+  h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: inherit;
+  }
+
+  p.TutorialItem-subtitle {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2em;
+    color: inherit;
+    margin-bottom: 40px;
+  }
+
+  &-content {
+    width: 580px;
+    max-width: 100%;
+  }
+
+  &-primaryButton,
+  &-secondaryButton {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    display: block;
+    width: 390px;
+    max-width: 100%;
+    padding: 25px;
+    margin: 0px auto 18px;
+
+    border: 1px solid #6200EE;
+    border-radius: 2em;
+    outline: none;
+
+    &:disabled {
+      color: #AFAFAF;
+      border: 1px solid #AFAFAF;
+    }
+  }
+
+  &-secondaryButton {
+    background: rgba(#6200EE, 0.4);
+  }
+}

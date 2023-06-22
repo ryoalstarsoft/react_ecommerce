@@ -1,0 +1,103 @@
+.Tops {
+  height: calc(100% - 165px);
+  overflow: auto;
+}
+
+.Tops .Tops-content {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: calc(100% - 33.33vw) 33.33vw;
+  grid-template-areas:
+  "productList visualFilter";
+  overflow: hidden;
+}
+
+.Tops .Tops-content h2 {
+  font-size: 36px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.Tops .VisualFilter {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.Tops .VisualFilter .FilterPanel {
+  margin: 0;
+}
+
+.Tops .Tops-products {
+  grid-area: productList;
+  padding-right: 70px;
+  border-right: 1px solid #707070;
+}
+
+.Tops .Tops-products h2.Tops-productsTitle {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.Tops > .container-wide {
+  height: 100%;
+  overflow: auto;
+}
+
+.Tops-products {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.Tops-products > .container {
+  width: auto;
+}
+
+.Tops-products .ProductList-wrapper > h4 {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px!important;
+}
+
+.Tops-products .Product {
+  order: 0;
+  margin: -8px -5px 10px;
+}
+
+.Tops-products .ProductGrid {
+  width: calc(25% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  order: 1;
+}
+
+/* from ScrollFetcher */
+.Tops-products .DotLoader {
+  width: 100%;
+  flex-basis: 100%;
+  order: 2;
+}
+
+/* onboarding */
+.Tops.onboarding .Tops-products {
+  position: relative;
+  overflow-y: hidden!important;
+}
+.Tops.onboarding .Tops-products:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 99;
+}

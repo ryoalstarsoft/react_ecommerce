@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Website-vr0.8-YesPlz-7" transform="translate(-122.000000, -355.000000)" fill="#6200EE" fill-rule="nonzero">
+            <g id="round-add_circle-selected" transform="translate(117.000000, 350.000000)">
+                <g id="Rounded_1_" transform="translate(5.000000, 5.000000)">
+                    <path d="M25,0 C11.2,0 0,11.2 0,25 C0,38.8 11.2,50 25,50 C38.8,50 50,38.8 50,25 C50,11.2 38.8,0 25,0 Z M35,27.5 L27.5,27.5 L27.5,35 C27.5,36.375 26.375,37.5 25,37.5 C23.625,37.5 22.5,36.375 22.5,35 L22.5,27.5 L15,27.5 C13.625,27.5 12.5,26.375 12.5,25 C12.5,23.625 13.625,22.5 15,22.5 L22.5,22.5 L22.5,15 C22.5,13.625 23.625,12.5 25,12.5 C26.375,12.5 27.5,13.625 27.5,15 L27.5,22.5 L35,22.5 C36.375,22.5 37.5,23.625 37.5,25 C37.5,26.375 36.375,27.5 35,27.5 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

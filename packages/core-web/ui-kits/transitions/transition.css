@@ -1,0 +1,51 @@
+/* fadeIn */
+.fadeIn-entering {
+  opacity: 0;
+}
+
+.fadeIn-entered {
+  animation-name: fadeIn;
+}
+
+.fadeIn-exiting {
+  animation-name: fadeOut;
+}
+
+/* fadeInUp */
+.fadeInUp-entering {
+  opacity: 0;
+}
+
+.fadeInUp-entered {
+  animation-name: fadeInUp;
+}
+
+.fadeInUp-exiting {
+  animation-name: fadeOutDown;
+}
+
+.fadeInUp-exited {
+  transform: translate3d(0, 100%, 0);
+}
+
+/* fadeInDown */
+.fadeInDown-entering {
+  opacity: 0;
+  -webkit-animation-delay: 0ms;
+  -moz-animation-delay: 0ms;
+  -o-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-duration: 0ms;
+  -moz-animation-duration: 0ms;
+  -o-animation-duration: 0ms;
+  animation-duration: 0ms;
+}
+
+.fadeInDown-entered {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+.fadeInDown-exiting {
+  animation-name: fadeOut;
+}

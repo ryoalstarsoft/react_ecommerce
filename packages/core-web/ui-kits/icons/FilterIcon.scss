@@ -1,0 +1,16 @@
+.FilterIcon {
+  position: relative;
+  .CountFilters {
+    position: absolute;
+    right: 20%;
+    top: -10%;
+    // width: 20px;
+    // height: 16px;
+    border-radius: 50%;
+    background-color: #8c3bff;
+    padding: 0 8px;
+    color: white;
+    font-family: Muli;
+    font-size: 12px;
+  } 
+}

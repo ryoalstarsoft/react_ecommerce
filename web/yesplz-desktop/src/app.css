@@ -1,0 +1,95 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  background: #F6F4F5;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.250em; /* 36px */
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+h2 {
+  font-size: 1.500em; /* 24px */
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+h3 {
+  font-size: 1.125em; /* 18px */
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5, p {
+  font-size: 0.875em; /* 14px */
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.container {
+  width: calc(100% - 30px);
+  max-width: 1230px;
+  margin: auto;
+}
+
+.container .container {
+  width: auto;
+}
+
+.container-wide {
+  width: calc(100% - 60px);
+  max-width: 1440px;
+  margin: auto;
+}
+
+.SubHeader {
+  margin-top: 40px!important;
+  margin-bottom: 37px;
+}
+
+/* Misc */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+a:active {
+  color: #8c3bff !important;
+}

@@ -1,0 +1,12 @@
+.FlatBanner {
+  background: #D8D8D8;
+  min-height: 162px;
+}
+
+.FlatBanner h1, .FlatBanner h2 {
+  color: #707070;
+}
+
+.FlatBanner h3 {
+  color: #000000;
+}

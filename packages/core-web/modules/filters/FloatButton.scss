@@ -1,0 +1,50 @@
+@import '../../assets/styles/variables.scss';
+
+.FloatButton {
+  background-color: $accent-primary;
+  width: 72px;
+  height: 72px;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0 2px 24px 0 rgba(140, 59, 255, 0.52);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+  z-index: 99;
+
+  overflow: hidden;
+  outline: none;
+
+  & > img {
+    position: relative;
+    z-index: 1;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  &:hover::before {
+    background: rgba(#FFFFFF, 8 / 100)
+  }
+
+  &:active::before {
+    background: rgba(#1B1A21, 16 / 100)
+  }
+
+  &:disabled {
+    animation: none;
+    opacity: 0.3;
+  }
+}

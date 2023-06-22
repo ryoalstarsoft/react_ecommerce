@@ -1,0 +1,116 @@
+@import '../../assets/styles/variables.scss';
+.ThumbnailPickerOption {
+    display: inline-block;
+    text-align: center;
+    h5 {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 15px;
+        letter-spacing: 0;
+        margin-top: 4px;
+        text-transform: capitalize;
+    }
+    &-thumbnail {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 48px;
+        min-height: 48px;
+        border-radius: 100%;
+        border: solid 1.5px rgba($dark-grey, 0.03);
+        margin: 10px;
+        .ThumbnailPicker--half & {
+            padding: 10px;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            background: $accent-primary;
+            max-width: 50%;
+            max-height: 50%;
+            margin: auto;
+            border-radius: 100%;
+            opacity: 0;
+            z-index: 1;
+            transition: max-width 0.1s ease-in, max-height 0.1s ease-in, opacity 0.2s linear;
+            .is-active>& {
+                max-width: 100%;
+                max-height: 100%;
+                opacity: 0.8;
+            }
+        }
+        &::before {
+            .ThumbnailPicker--half .is-active>& {
+                opacity: 0.2;
+            }
+        }
+    }
+    &-imageWrapper {
+        text-align: center;
+        &>* {
+            position: relative;
+            vertical-align: middle;
+            margin: auto;
+            z-index: 0;
+        }
+        &::after,
+        &::before {
+            content: '';
+            position: absolute;
+            background: $accent-primary;
+            width: 44px;
+            height: 44px;
+            max-width: 50%;
+            max-height: 50%;
+            border-radius: 100%;
+            opacity: 0;
+            z-index: 1;
+            transition: max-width 0.1s ease-in, max-height 0.1s ease-in, opacity 0.2s linear;
+            display: none;
+            .is-active & {
+                max-width: 100%;
+                max-height: 100%;
+                opacity: 0.8;
+            }
+            .ThumbnailPicker--half .is-active & {
+                opacity: 0.9;
+                display: block;
+            }
+        }
+        &::before {
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+        }
+        &::after {
+            background: rgba($accent-primary, 0.1);
+            width: 44px;
+            height: 44px;
+            background: none;
+            box-sizing: content-box;
+            border: 10px solid rgba($accent-primary, 0.1);
+            left: -10px;
+            top: -10px;
+        }
+    }
+    &-thumbnailSelectedIcon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        margin: auto;
+        z-index: 2;
+    }
+    &.is-active {
+        h5 {
+            color: $accent-primary;
+        }
+    }
+}

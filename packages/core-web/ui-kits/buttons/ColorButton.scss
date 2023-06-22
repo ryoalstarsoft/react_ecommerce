@@ -1,0 +1,58 @@
+@import '@yesplz/core-web/assets/styles/variables.scss';
+
+@mixin fullAbsolute ($value: 0) {
+  position: absolute;
+  right: $value;
+  bottom: $value;
+  left: $value;
+  top: $value;
+}
+
+.ColorButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: auto;
+  position: relative;
+  outline: none;
+  vertical-align: top;
+ 
+  border: 1.25px solid rgba($dark-grey, 0.1);
+  border-radius: 100%;
+  box-sizing: border-box;
+
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+
+  &-color {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    box-sizing: border-box;
+
+    .white > & {
+      border: 1.25px solid rgba($dark-grey, 0.1);
+    }
+  }
+
+  &-mask {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include fullAbsolute(-1.25px);
+    &::before {
+      content: '';
+      border-radius: 100%;
+      @include fullAbsolute;
+      border: 6px solid white;
+      opacity: 0.9;
+    }
+  }
+}

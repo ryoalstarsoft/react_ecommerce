@@ -1,0 +1,75 @@
+.SimplePreset {
+  background: white;
+  display: inline-block;
+  width: 105px;
+  margin: auto;
+  padding: 4px;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+
+  transition: background-color 0.2s linear;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+
+  user-select: none;
+  -webkit-user-select: none;
+
+  cursor: pointer;
+}
+
+.SimplePreset:hover {
+  background: #8B8B8B;
+}
+
+.SimplePreset h5 {
+  font-size: 13px;
+  font-weight: 200;
+  color: #000000!important;
+  line-height: 16px!important;
+  text-align: center;
+  color: #9B9B9B;
+  margin-bottom: 5px;
+}
+
+.SimplePreset:hover > h5 {
+  color: white!important;
+}
+
+.SimplePreset-svg {
+  height: 90px;
+  position: relative;
+  margin: auto;
+}
+
+.SimplePreset-svg > svg {
+  max-width: 100%;
+  height: 90px;
+  transform: scale(1.4)!important;
+  -webkit-transform: scale(1.4)!important;
+  -moz-transform: scale(1)!important;
+  -o-transform: scale(1.4)!important;
+}
+
+.SimplePreset-svg svg #bodypart_area {
+  transform: scale(1.4) translate(50px, 0)!important;
+  -webkit-transform: scale(1.4) translate(50px, 0)!important;
+  -moz-transform: scale(1.4) translate(50px, 0)!important;
+  -o-transform: scale(1.4) translate(50px, 0)!important;
+}
+
+/* edge support */
+@supports (-ms-ime-align: auto) {
+  .SimplePreset-svg > svg {
+    transform: scale(1)!important;
+  }
+  .SimplePreset-svg svg #bodypart_area {
+    transform: scale(1.4) translate(0, 0)!important;
+  }
+}
